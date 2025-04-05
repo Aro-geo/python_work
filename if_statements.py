@@ -1,32 +1,32 @@
-# cars = ['audi', 'bmw', 'subaru', 'toyota']
-# for car in cars:
-#     if car == 'bmw':
-#         print(car.upper())
-#     else:
-#         print(car.title())
+cars = ['audi', 'bmw', 'subaru', 'toyota']
+for car in cars:
+    if car == 'bmw':
+        print(car.upper())
+    else:
+        print(car.title())
 
-# # Check for inquality
-# requested = 'audi'
-# if requested != 'subaru':
-#     print(f"{requested.title()} is not in the list.")
+# Check for inquality
+requested = 'audi'
+if requested != 'subaru':
+    print(f"{requested.title()} is not in the list.")
 
-#     #numeric comparisons
-# answer = 18 
-# if answer != 42:
-#     print("That is not the correct answer.")
+    #numeric comparisons
+answer = 18 
+if answer != 42:
+    print("That is not the correct answer.")
 
-#   #Checking Whether a Value Is in a List
-# requested_toppings = ['mushrooms', 'onions', 'pineapple']
-# if 'mushrooms' in requested_toppings:
-#     print("Adding mushrooms.")  
-# if 'pepperoni' in requested_toppings:
-#     print("Adding pepperoni.")
+  #Checking Whether a Value Is in a List
+requested_toppings = ['mushrooms', 'onions', 'pineapple']
+if 'mushrooms' in requested_toppings:
+    print("Adding mushrooms.")  
+if 'pepperoni' in requested_toppings:
+    print("Adding pepperoni.")
 
- #Checking Whether a Value Is Not in a List 
-# banned_users = ['andrew', 'carolina', 'david']  
-# user = 'marie'
-# if user not in banned_users:
-#     print(f"{user.title()}, you can post a response if you wish.")
+# Checking Whether a Value Is Not in a List 
+banned_users = ['andrew', 'carolina', 'david']  
+user = 'marie'
+if user not in banned_users:
+    print(f"{user.title()}, you can post a response if you wish.")
 
 # #if-else Statements
 age = 17
